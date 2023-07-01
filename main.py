@@ -24,7 +24,7 @@ def addStr(string=''):
     global textStyle
     print(textStyle + string, end='', flush=True)
 
-print('Recreated from hackertyper.net ;v;\n')
+print('Recreated from hackertyper.net, made by hawoi ;v;\n')
 
 while True:
     char = readchar()

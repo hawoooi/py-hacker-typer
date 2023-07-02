@@ -31,7 +31,7 @@ while True:
 
     nextChar = currentChar + charsPerStroke
     
-    if nextChar > sourceLen:
+    if nextChar >= sourceLen:
         nextChar = sourceLen
         addStr(source[currentChar:nextChar])
         print(Style.RESET)

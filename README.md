@@ -1,3 +1,7 @@
 # hacker typer... but in python ;v;
-yeah this is pretty much it
-you need `readchar` to use this. to install readchar, run `pip install readchar`
+This is my recreation of [hackertyper](https://hackertyper.net) but in python. 
+To run this project you must install `readchar` using `pip3 install readchar`.
+Documentation for the cheap hacker typer library is avaliable in the file.
+- [HackerTyperScript.py](HackerTyperScript.py): Hacker typer as a python script.
+- [HackerTyper.py](HackerTyper.py): Hacker typer library (it sucks trust me.)
+- [example.py](example.py): Example use of the hacker typer library.

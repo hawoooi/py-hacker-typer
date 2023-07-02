@@ -1,6 +1,7 @@
 from HackerTyper import Typer
+from requests import get
 
-typerSource = open('source.txt', 'r').read()
+typerSource = get('https://raw.githubusercontent.com/duiker101/Hacker-Typer/master/kernel.txt').text
 typerTextStyle = Typer.Style.RED
 typerCharsPerStroke = 3
 

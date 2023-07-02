@@ -24,10 +24,11 @@ class Typer:
         """
         from readchar import readchar as _Getch
         from signal import signal, SIGINT, SIGHUP, SIGTERM
+        from requests import get
 
         if source == '':
-            source = open('source.txt', 'r').read()
-
+            source = get('https://raw.githubusercontent.com/duiker101/Hacker-Typer/master/kernel.txt').text
+            
         if textStyle =='':
             textStyle = ''
 
